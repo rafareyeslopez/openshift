@@ -77,7 +77,7 @@
 
 	</dependencies>
 
-	<build>
+<!-- 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -87,7 +87,18 @@
         </configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build> -->
+	
+	<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>2.3</version>
+    <configuration>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+        <outputDirectory>target</outputDirectory>
+        <warName>ROOT</warName>
+    </configuration>
+</plugin>
 	
 	
 
