@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Billing GUID Checker REST Service
 
 Use this microservice to check if MSISDN is already subscribed to a certain billing GUID.
@@ -57,3 +58,6 @@ To get a specific subscription, use the subscription ID (from this database):
 ## Important
 #### Make sure when unsuibscribing users to delete them from this database via DELETE request.
 #### Always consult the database first, check if msisdn is present and delete it
+=======
+# openshift
+>>>>>>> branch 'master' of https://github.com/rafareyeslopez/openshift
