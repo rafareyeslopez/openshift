@@ -1,0 +1,6 @@
+guid-checker:
+ build: .
+ ports:
+  - "8750:8750"
+ volumes:
+    - /opt/mcore2/guid-checker:/etc/logs
