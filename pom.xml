@@ -89,7 +89,7 @@
 			</plugin>
 		</plugins>
 	</build> -->
-	
+	<build>
 	<plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-war-plugin</artifactId>
@@ -100,7 +100,7 @@
         <warName>ROOT</warName>
     </configuration>
 </plugin>
-	
+	</build> 
 	
 
 	
