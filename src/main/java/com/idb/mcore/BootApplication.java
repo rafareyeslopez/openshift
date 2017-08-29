@@ -20,6 +20,7 @@ public class BootApplication extends SpringBootServletInitializer {
 	 */
 	@Override
 	protected SpringApplicationBuilder configure(final SpringApplicationBuilder application) {
+		System.out.println("starting configure RAFAAAA ");
 		return application.sources(BootApplication.class);
 	}
 
@@ -30,6 +31,8 @@ public class BootApplication extends SpringBootServletInitializer {
 	 *            args
 	 */
 	public static void main(final String[] args) {
+		System.out.println("starting main RAFAAAA ");
 		SpringApplication.run(BootApplication.class, args);
+		System.out.println("started main RAFAAAA ");
 	}
 }
